@@ -7,7 +7,7 @@ Develop an autonomous remote-controlled (RC) car using an Arduino and PID contro
 
 ## Introduction
 
-The idea of developing an autonomous RC car was conceived by Dr. Peters and initially developed by Dwarkesh Iyengar in October of 2015 [(link)](http://dianelpeters.com/DSCC_2015_Development_of_a_Miniaturized_Autonomous_Vehicle.pdf). Iyengar used a microcontroller unit to control the car. The microcontroller would receive commands and transmit data to a myRIO controller unit using Xbee radio transmitters. Building on Iyengar’s work, the goal of this project was to place the controller in the RC car, removing the dependency on the myRIO controller and making the car fully autonomous.
+The idea of developing an autonomous RC car was brought up by [Dr. Peters](http://dianelpeters.com/) and initially developed by Dwarkesh Iyengar in October of 2015 [(link)](http://dianelpeters.com/DSCC_2015_Development_of_a_Miniaturized_Autonomous_Vehicle.pdf). Iyengar used a microcontroller unit to control the car. The microcontroller would receive commands and transmit data to a myRIO controller unit using Xbee radio transmitters. Building on Iyengar’s work, the goal of this project was to place the controller in the RC car, removing the dependency on the myRIO controller and making the car fully autonomous.
 
 ## Iterations
 
