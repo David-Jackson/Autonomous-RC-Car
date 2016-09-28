@@ -1,0 +1,3 @@
+08/12/2016
+
+The idea behind this design was to be able to transmit data wirelessly to a computer to analyse the RC Car's current state. This included the vehicle's acceleration, it's proximity to other objects, and the current motor speeds. However, due to the hardware limitations of the accelerometer and Arduino, the time in between transmissions averages 1.5 seconds. This large of a duration between transmissions would not yield usable data, so a different design was considered.
