@@ -18,7 +18,7 @@ This project went through three design iterations during the author’s term.
 The first design iteration centered around using one LIDAR sensor  mounted to a servo motor to measure the distance to the vehicle’s surroundings. The servo motor would rotate 90 degrees, obtaining a distance reading at every degree interval. Wiring for the Lidar/Servo assembly and the Arduino can be seen in [Figure 1](#fig-1). This concept was first tested by placing the LIDAR/Servo assembly in 12 inches away from a wall. The servo motor looped through 45 and 135 degrees and back with different delay times between degrees ranging from 5 and 50 milliseconds. This was repeated 10 times for data validation. 
 
 <a id="fig-1"></a>
-![Figure 1](/01_Lidar Sensor with Servo Test/Lidar_Sensor_Test_Setup.png)
+![Figure 1](/01_Lidar_Sensor_with_Servo_Test/Lidar_Sensor_Test_Setup.png)
 Figure 1: LIDAR/Servo Wiring Schematic
 
 The results of the LIDAR/Servo test showed a deviation of around 10 cm between measurements at all speeds tested. This result was not within the accuracy needed for this project. A closer look into the specification sheet for the sensor showed a range between 0 and 40 meters and an accuracy of 0.025 meters. The LIDAR sensor was meant for larger-scale use where the difference between centimeters was not as important. IR distance sensors were implemented as an alternative to LIDAR, which is described in Iteration 3.
